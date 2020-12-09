@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>腾讯云服务器常用命令 | 范涛凡的个人博客</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="好好生活，慢慢相遇">
+    
+    <link rel="preload" href="/assets/css/0.styles.992cb7aa.css" as="style"><link rel="preload" href="/assets/js/app.d7a44bfe.js" as="script"><link rel="preload" href="/assets/js/2.ab14ed85.js" as="script"><link rel="preload" href="/assets/js/15.e5af35dd.js" as="script"><link rel="prefetch" href="/assets/js/10.ae5e0e69.js"><link rel="prefetch" href="/assets/js/11.b700e1ea.js"><link rel="prefetch" href="/assets/js/12.e4c729c6.js"><link rel="prefetch" href="/assets/js/13.016a2615.js"><link rel="prefetch" href="/assets/js/14.1daa82cd.js"><link rel="prefetch" href="/assets/js/16.b2168a7d.js"><link rel="prefetch" href="/assets/js/17.7486bbc1.js"><link rel="prefetch" href="/assets/js/18.d2a44473.js"><link rel="prefetch" href="/assets/js/19.005c0d75.js"><link rel="prefetch" href="/assets/js/20.9dbdc016.js"><link rel="prefetch" href="/assets/js/21.3b74f320.js"><link rel="prefetch" href="/assets/js/22.3c628192.js"><link rel="prefetch" href="/assets/js/23.8e02b849.js"><link rel="prefetch" href="/assets/js/24.3ff433d8.js"><link rel="prefetch" href="/assets/js/25.0c9f25e9.js"><link rel="prefetch" href="/assets/js/26.1e3474b8.js"><link rel="prefetch" href="/assets/js/27.61aa75ad.js"><link rel="prefetch" href="/assets/js/28.4b72442d.js"><link rel="prefetch" href="/assets/js/29.c2435a4b.js"><link rel="prefetch" href="/assets/js/3.cf5f056f.js"><link rel="prefetch" href="/assets/js/30.5edfa9d5.js"><link rel="prefetch" href="/assets/js/31.26586f95.js"><link rel="prefetch" href="/assets/js/4.6fd1ef01.js"><link rel="prefetch" href="/assets/js/5.da37f56e.js"><link rel="prefetch" href="/assets/js/6.d09cb291.js"><link rel="prefetch" href="/assets/js/7.9dde9a5b.js"><link rel="prefetch" href="/assets/js/8.9a4b8553.js"><link rel="prefetch" href="/assets/js/9.f145d8d7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.992cb7aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">范涛凡的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link router-link-active">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link router-link-active">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>服务器</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/servers/" aria-current="page" class="sidebar-link">配置服务器环境</a></li><li><a href="/servers/order.html" aria-current="page" class="active sidebar-link">腾讯云服务器常用命令</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="腾讯云服务器常用命令"><a href="#腾讯云服务器常用命令" class="header-anchor">#</a> 腾讯云服务器常用命令</h1> <div class="language-js extra-class"><pre class="language-js"><code>netstat <span class="token operator">-</span>antp <span class="token operator">|</span> grep <span class="token number">8022</span> 查看端口放没放行
+firewall<span class="token operator">-</span>cmd <span class="token operator">--</span>list<span class="token operator">-</span>port    查看放行的端口列表
+systemctl status firewalld 查看防火墙状态
+systemctl stop firewalld   停止防火墙
+firewall<span class="token operator">-</span>cmd <span class="token operator">--</span>zone<span class="token operator">=</span><span class="token keyword">public</span> <span class="token operator">--</span>add<span class="token operator">-</span>port<span class="token operator">=</span><span class="token number">1997</span><span class="token operator">/</span>tcp <span class="token operator">--</span>permanent     这是添加端口的
+ls            <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">**</span>查看文件夹
+rm <span class="token operator">-</span>rf 文件名 <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">*</span>删除对应文件夹<span class="token operator">/</span>文件
+i             <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">*</span>输入
+Esc <span class="token operator">+</span> <span class="token operator">:</span>wq     <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">*</span>保存
+env           <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">*</span>查看环境变量
+vi 文件名     <span class="token operator">**</span><span class="token operator">**</span><span class="token operator">*</span> 打开某个文件
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/servers/" class="prev router-link-active">
+        配置服务器环境
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d7a44bfe.js" defer></script><script src="/assets/js/2.ab14ed85.js" defer></script><script src="/assets/js/15.e5af35dd.js" defer></script>
+  </body>
+</html>

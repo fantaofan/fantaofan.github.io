@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>生命周期 | 范涛凡的个人博客</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="好好生活，慢慢相遇">
+    
+    <link rel="preload" href="/assets/css/0.styles.992cb7aa.css" as="style"><link rel="preload" href="/assets/js/app.d7a44bfe.js" as="script"><link rel="preload" href="/assets/js/2.ab14ed85.js" as="script"><link rel="preload" href="/assets/js/26.1e3474b8.js" as="script"><link rel="prefetch" href="/assets/js/10.ae5e0e69.js"><link rel="prefetch" href="/assets/js/11.b700e1ea.js"><link rel="prefetch" href="/assets/js/12.e4c729c6.js"><link rel="prefetch" href="/assets/js/13.016a2615.js"><link rel="prefetch" href="/assets/js/14.1daa82cd.js"><link rel="prefetch" href="/assets/js/15.e5af35dd.js"><link rel="prefetch" href="/assets/js/16.b2168a7d.js"><link rel="prefetch" href="/assets/js/17.7486bbc1.js"><link rel="prefetch" href="/assets/js/18.d2a44473.js"><link rel="prefetch" href="/assets/js/19.005c0d75.js"><link rel="prefetch" href="/assets/js/20.9dbdc016.js"><link rel="prefetch" href="/assets/js/21.3b74f320.js"><link rel="prefetch" href="/assets/js/22.3c628192.js"><link rel="prefetch" href="/assets/js/23.8e02b849.js"><link rel="prefetch" href="/assets/js/24.3ff433d8.js"><link rel="prefetch" href="/assets/js/25.0c9f25e9.js"><link rel="prefetch" href="/assets/js/27.61aa75ad.js"><link rel="prefetch" href="/assets/js/28.4b72442d.js"><link rel="prefetch" href="/assets/js/29.c2435a4b.js"><link rel="prefetch" href="/assets/js/3.cf5f056f.js"><link rel="prefetch" href="/assets/js/30.5edfa9d5.js"><link rel="prefetch" href="/assets/js/31.26586f95.js"><link rel="prefetch" href="/assets/js/4.6fd1ef01.js"><link rel="prefetch" href="/assets/js/5.da37f56e.js"><link rel="prefetch" href="/assets/js/6.d09cb291.js"><link rel="prefetch" href="/assets/js/7.9dde9a5b.js"><link rel="prefetch" href="/assets/js/8.9a4b8553.js"><link rel="prefetch" href="/assets/js/9.f145d8d7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.992cb7aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">范涛凡的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link router-link-active">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link router-link-active">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/vue3/" aria-current="page" class="sidebar-link">vue3 新特性</a></li><li><a href="/vue3/life.html" aria-current="page" class="active sidebar-link">生命周期</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/vue3/api.html" class="sidebar-link">API</a></li><li><a href="/vue3/module.html" class="sidebar-link">模块化</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="生命周期"><a href="#生命周期" class="header-anchor">#</a> 生命周期</h1> <h3 id="什么是生命周期"><a href="#什么是生命周期" class="header-anchor">#</a> 什么是生命周期？</h3> <p>vue 是组件化编程，从一个组件诞生到消亡，会经历很多过程，这些过程就叫做生命周期</p> <h3 id="什么是钩子函数"><a href="#什么是钩子函数" class="header-anchor">#</a> 什么是钩子函数？</h3> <p>伴随着生命周期，给用户使用的函数，操控生命周期，主要是操控钩子函数</p> <ol><li>setup()：开始创建组件之前，在 beforeCreate 和 created 之前执行。创建的是 data 和 method</li> <li>onBeforeMount()：组件挂载到节点上之前</li> <li>onMounted()：组件挂载完成后执行</li> <li>onBeforeUpdate()：组件更新之前</li> <li>onUpdated()：组件更新完成之后</li> <li>onBeforeUnmount()：组件卸载之前</li> <li>onUnmounted()：组件卸载完成之后</li> <li>onActivated()：被包含在<!---->中的组件，会多出两个生命周期钩子函数。被激活时执行</li> <li>onDeactivated()：比如从 A 组件，切换到 B 组件，A 组件消失时执行</li> <li>onErrorCaptured()：当捕获一个来自子孙组件的异常时激活钩子函数</li> <li>onRenderTracked()：状态跟踪，跟踪页面上所有响应式变量和方法的状态，也就是 return 返回去的。</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 组件不更新不会执行</span>
+<span class="token function">onRenderTracked</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;状态跟踪钩子函数-----------&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="12"><li>onRenderTriggered()：状态触发它不会跟踪每一个值，而是给你变化值的信息，并且新值和旧值都会给你明确的展示出来</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token function">onRenderTriggered</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">event</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;状态触发钩子函数-----------&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// key 哪些变量发生了变化</span>
+<span class="token comment">// newValue 更新后变量的值</span>
+<span class="token comment">// oldValue 更新前变量的值</span>
+<span class="token comment">// target 目前页面中的响应变量和函数</span>
+</code></pre></div><p><strong>注：使用<!---->组件会将数据保留在内存中，比如我们不想每次看到一个页面都重新加载数据，就可以使用<!---->组件解决。</strong></p> <div class="language-js extra-class"><pre class="language-js"><code>Vue2<span class="token punctuation">.</span>x 和 Vue3<span class="token punctuation">.</span>x 生命周期对比：
+Vue2<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>vue3
+beforeCreate <span class="token operator">-</span><span class="token operator">&gt;</span> setup
+created <span class="token operator">-</span><span class="token operator">&gt;</span> setup
+beforeMount <span class="token operator">-</span><span class="token operator">&gt;</span> onBeforeMount
+mounted <span class="token operator">-</span><span class="token operator">&gt;</span> onMounted
+beforeUpdate <span class="token operator">-</span><span class="token operator">&gt;</span> onBeforeUpdate
+updated <span class="token operator">-</span><span class="token operator">&gt;</span> onUpdated
+beforeDestroy <span class="token operator">-</span><span class="token operator">&gt;</span> onBeforeUnmount
+destroyed <span class="token operator">-</span><span class="token operator">&gt;</span> onUnmounted
+activated <span class="token operator">-</span><span class="token operator">&gt;</span> onActivated
+deactivated <span class="token operator">-</span><span class="token operator">&gt;</span> onDeactivated
+errorCaptured <span class="token operator">-</span><span class="token operator">&gt;</span> onErrorCaptured
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue3/" class="prev router-link-active">
+        vue3 新特性
+      </a></span> <span class="next"><a href="/vue3/api.html">
+        API
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d7a44bfe.js" defer></script><script src="/assets/js/2.ab14ed85.js" defer></script><script src="/assets/js/26.1e3474b8.js" defer></script>
+  </body>
+</html>

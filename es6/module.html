@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Module 语法 | 范涛凡的个人博客</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="好好生活，慢慢相遇">
+    
+    <link rel="preload" href="/assets/css/0.styles.992cb7aa.css" as="style"><link rel="preload" href="/assets/js/app.d7a44bfe.js" as="script"><link rel="preload" href="/assets/js/2.ab14ed85.js" as="script"><link rel="preload" href="/assets/js/9.f145d8d7.js" as="script"><link rel="prefetch" href="/assets/js/10.ae5e0e69.js"><link rel="prefetch" href="/assets/js/11.b700e1ea.js"><link rel="prefetch" href="/assets/js/12.e4c729c6.js"><link rel="prefetch" href="/assets/js/13.016a2615.js"><link rel="prefetch" href="/assets/js/14.1daa82cd.js"><link rel="prefetch" href="/assets/js/15.e5af35dd.js"><link rel="prefetch" href="/assets/js/16.b2168a7d.js"><link rel="prefetch" href="/assets/js/17.7486bbc1.js"><link rel="prefetch" href="/assets/js/18.d2a44473.js"><link rel="prefetch" href="/assets/js/19.005c0d75.js"><link rel="prefetch" href="/assets/js/20.9dbdc016.js"><link rel="prefetch" href="/assets/js/21.3b74f320.js"><link rel="prefetch" href="/assets/js/22.3c628192.js"><link rel="prefetch" href="/assets/js/23.8e02b849.js"><link rel="prefetch" href="/assets/js/24.3ff433d8.js"><link rel="prefetch" href="/assets/js/25.0c9f25e9.js"><link rel="prefetch" href="/assets/js/26.1e3474b8.js"><link rel="prefetch" href="/assets/js/27.61aa75ad.js"><link rel="prefetch" href="/assets/js/28.4b72442d.js"><link rel="prefetch" href="/assets/js/29.c2435a4b.js"><link rel="prefetch" href="/assets/js/3.cf5f056f.js"><link rel="prefetch" href="/assets/js/30.5edfa9d5.js"><link rel="prefetch" href="/assets/js/31.26586f95.js"><link rel="prefetch" href="/assets/js/4.6fd1ef01.js"><link rel="prefetch" href="/assets/js/5.da37f56e.js"><link rel="prefetch" href="/assets/js/6.d09cb291.js"><link rel="prefetch" href="/assets/js/7.9dde9a5b.js"><link rel="prefetch" href="/assets/js/8.9a4b8553.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.992cb7aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">范涛凡的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="js" class="dropdown-title"><span class="title">js</span> <span class="arrow down"></span></button> <button type="button" aria-label="js" class="mobile-dropdown-title"><span class="title">js</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/js/" class="nav-link">
+  js基础
+</a></li><li class="dropdown-item"><!----> <a href="/jshigh/" class="nav-link">
+  js高级
+</a></li></ul></div></div><div class="nav-item"><a href="/git/" class="nav-link">
+  git
+</a></div><div class="nav-item"><a href="/es6/" class="nav-link router-link-active">
+  es6
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="vue" class="dropdown-title"><span class="title">vue</span> <span class="arrow down"></span></button> <button type="button" aria-label="vue" class="mobile-dropdown-title"><span class="title">vue</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuebase/" class="nav-link">
+  vuebase
+</a></li><li class="dropdown-item"><!----> <a href="/vue3/" class="nav-link">
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/servers/" class="nav-link">
+  服务器
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tools/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/tools/npm.html" class="nav-link">
+  npm
+</a></li><li class="dropdown-item"><!----> <a href="/tools/blog.html" class="nav-link">
+  vuepress
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>es6</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/es6/" aria-current="page" class="sidebar-link">es6 学习指北</a></li><li><a href="/es6/module.html" aria-current="page" class="active sidebar-link">Module 语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/es6/module.html#es6-模块的好处" class="sidebar-link">es6 模块的好处</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#严格模式" class="sidebar-link">严格模式</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#export-命令" class="sidebar-link">export 命令</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#import-命令" class="sidebar-link">import 命令</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#export-default-命令" class="sidebar-link">export default 命令</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#export-与-import-的复合写法" class="sidebar-link">export 与 import 的复合写法</a></li><li class="sidebar-sub-header"><a href="/es6/module.html#module-的加载实现" class="sidebar-link">Module 的加载实现</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="module-语法"><a href="#module-语法" class="header-anchor">#</a> Module 语法</h1> <p>ES6 模块不是对象，而是通过 export 命令显式指定输出的代码，再通过 import 命令输入。</p> <h2 id="es6-模块的好处"><a href="#es6-模块的好处" class="header-anchor">#</a> es6 模块的好处</h2> <ol><li>静态加载</li> <li>不再需要 UMD 模块格式了，将来服务器和浏览器都会支持 ES6 模块格式。目前，通过各种工具库，其实已经做到了这一点。</li> <li>将来浏览器的新 API 就能用模块格式提供，不再必须做成全局变量或者 navigator 对象的属性。</li> <li>不再需要对象作为命名空间（比如 Math 对象），未来这些功能可以通过模块提供。</li></ol> <h2 id="严格模式"><a href="#严格模式" class="header-anchor">#</a> 严格模式</h2> <p>ES6 的模块自动采用严格模式，不管你有没有在模块头部加上&quot;use strict&quot;;。
+严格模式主要有以下限制：</p> <ul><li>变量必须声明后再使用</li> <li>禁止 this 指向全局对象</li> <li>eval 和 arguments 不能被重新赋值</li> <li>arguments 不会自动反映函数参数的变化</li> <li>不能使用 arguments.callee 和 arguments.caller</li> <li>增加了保留字（比如 protected、static 和 interface）</li> <li>不能使用 fn.caller 和 fn.arguments 获取函数调用的堆栈</li> <li>函数的参数不能有同名属性，否则报错</li> <li>不能使用 with 语句</li> <li>不能对只读属性赋值，否则报错</li> <li>不能使用前缀 0 表示八进制数，否则报错</li> <li>不能删除不可删除的属性，否则报错</li> <li>不能删除变量 delete prop，会报错，只能删除属性 delete global[prop]</li> <li>eval 不会在它的外层作用域引入变量</li></ul> <h2 id="export-命令"><a href="#export-命令" class="header-anchor">#</a> export 命令</h2> <ol><li>输出变量</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 写法一</span>
+<span class="token keyword">export</span> <span class="token keyword">var</span> m <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 写法二</span>
+<span class="token keyword">var</span> m <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span> m <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 写法三</span>
+<span class="token keyword">var</span> n <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span> n <span class="token keyword">as</span> m <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ol start="2"><li>输出函数或类（class）</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 报错</span>
+<span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">export</span> f<span class="token punctuation">;</span>
+
+<span class="token comment">// 正确</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 正确</span>
+<span class="token keyword">function</span> <span class="token function">f</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span>f<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><ul><li>可以使用 as 关键字重命名</li></ul> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">v1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+<span class="token keyword">function</span> <span class="token function">v2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token punctuation">{</span>
+  v1 <span class="token keyword">as</span> streamV1<span class="token punctuation">,</span>
+  v2 <span class="token keyword">as</span> streamV2<span class="token punctuation">,</span>
+  v2 <span class="token keyword">as</span> streamLatestVersion
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="import-命令"><a href="#import-命令" class="header-anchor">#</a> import 命令</h2> <p>import 输入的变量都是只读的</p> <p>如果想为输入的变量重新取一个名字，import 命令要使用 as 关键字，将输入的变量重命名。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> lastName <span class="token keyword">as</span> surname <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;./profile.js&quot;</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="export-default-命令"><a href="#export-default-命令" class="header-anchor">#</a> export default 命令</h2> <p>为模块指定默认输出，一个模块只能有一个默认输出</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// export-default.js</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;foo&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 其他模块加载该模块时，import 命令可以为该匿名函数指定任意名字</span>
+
+<span class="token comment">// import-default.js</span>
+<span class="token keyword">import</span> customName <span class="token keyword">from</span> <span class="token string">&quot;./export-default&quot;</span><span class="token punctuation">;</span>
+<span class="token function">customName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>export default 后面不能跟变量声明语句</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 正确</span>
+<span class="token keyword">export</span> <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 正确</span>
+<span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> a<span class="token punctuation">;</span>
+
+<span class="token comment">// 正确</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token number">42</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 报错</span>
+<span class="token keyword">export</span> <span class="token number">42</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 错误</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">var</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</code></pre></div><p>export default 也可以用来输出类</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// MyClass.js</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
+
+<span class="token comment">// main.js</span>
+<span class="token keyword">import</span> MyClass <span class="token keyword">from</span> <span class="token string">'MyClass'</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> o <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MyClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>比较默认输出和正常输出</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 第一组</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">function</span> <span class="token function">crc32</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 输出</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">import</span> crc32 <span class="token keyword">from</span> <span class="token string">&quot;crc32&quot;</span><span class="token punctuation">;</span> <span class="token comment">// 输入</span>
+
+<span class="token comment">// 第二组</span>
+<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">crc32</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 输出</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">import</span> <span class="token punctuation">{</span> crc32 <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;crc32&quot;</span><span class="token punctuation">;</span> <span class="token comment">// 输入</span>
+</code></pre></div><h2 id="export-与-import-的复合写法"><a href="#export-与-import-的复合写法" class="header-anchor">#</a> export 与 import 的复合写法</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token punctuation">{</span> foo<span class="token punctuation">,</span> bar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;my_module&quot;</span><span class="token punctuation">;</span>
+
+<span class="token comment">// 可以简单理解为</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> foo<span class="token punctuation">,</span> bar <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;my_module&quot;</span><span class="token punctuation">;</span>
+<span class="token keyword">export</span> <span class="token punctuation">{</span> foo<span class="token punctuation">,</span> bar <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token comment">// foo和bar实际上并没有被导入当前模块，只是相当于对外转发了这两个接口，导致当前模块不能直接使用foo和bar。</span>
+</code></pre></div><h2 id="module-的加载实现"><a href="#module-的加载实现" class="header-anchor">#</a> Module 的加载实现</h2> <p>ES6 模块与 CommonJS 模块的差异</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/es6/" class="prev router-link-active">
+        es6 学习指北
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.d7a44bfe.js" defer></script><script src="/assets/js/2.ab14ed85.js" defer></script><script src="/assets/js/9.f145d8d7.js" defer></script>
+  </body>
+</html>
